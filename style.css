@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*TOP*/
+.top
+{   width: 100%;
+    height: 20px;
+    background-color: rgb(0, 127, 201);
+
+}
+/*ENCABEZADO*/
+.encabezado
+{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color:azure;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+    
+}
+
+/*LOGO*/
+.logo
+{   
+    align-content: center;
+    position:absolute;
+    
+    animation-duration: 800ms;
+    animation-name: animacion_de_entrada;
+    
+}
+.img-logo
+{
+    height: 40px;
+    margin-top: 9%;    
+}
+
+/*MENU*/
+.logo-menu
+{
+    position: absolute;
+    width: 50px;
+    opacity: 0%;
+   
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+  
+}
+/*
+ul
+{
+    padding: 10px;
+}
+    */
+ul {
+position: relative;
+display: flex;
+padding: 4px;
+text-decoration: none;
+color: #333;
+z-index: 1;
+transition: 400ms;
+}
+ul:hover {
+    position: relative;
+    display: flex;
+    padding: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    z-index: 1;
+    margin-top: 20px;
+    background-color: blueviolet;
+    height: 100%;
+    
+    
+    
+    
+    }
+
+
+/*BOTON*/
+.section-pagos
+{
+    
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.btn-pagos
+{
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 0cap;
+    color: white;
+    background: rgb(140,162,201);
+    background: linear-gradient(347deg, rgba(140,162,201,1) 10%, rgba(235,0,255,1) 100%);
+    font-weight:bold;
+    animation-name: animacion_de_entrada;
+    animation-duration: 1s;
+  
+}
+.btn-pagos:hover
+{
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 0cap;
+    color: rgb(0, 0, 0);
+    background: rgb(140,162,201);
+    background: whitesmoke;
+    font-weight:bold;
+    border-color: darkorchid;
+    border-width: 3px;
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+/*GALERIA*/
+.galeria
+{
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.imagen-fondo
+{   object-fit:cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(49%);
+}
+.titulo
+{
+    position:absolute;
+    color: aliceblue;
+    width: 80%;
+    font-size: 40px;
+    font-weight: 700;
+    
+    z-index: 999;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    padding-left: 10%;
+    
+}
+
+.blanco
+{
+    width: 50%;
+    background-color: coral;
+    height: 100%;
+}
+@keyframes animacion_de_entrada {
+    from {
+        margin-left: -50px;
+    } 
+    to {
+        margin-left: 0px;
+    } 
+
+} 
