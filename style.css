@@ -186,16 +186,33 @@ ul:hover {
 .cuadro
 {   
     background-color: rgba(101, 0, 126, 0.897);
-    margin-bottom: 60px;
-    margin-top: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: #ffffff;
     display: flex;
+
+    border-radius: 15px;
     align-items: center;
+    
+}
+.cuadro:hover
+{   
+    background-color: rgba(101, 0, 126, 0.897);
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    display: flex;
+    transition: 600ms;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    align-items: center;
+    align-content: center;
     
 }
 .icono-cuadro
@@ -206,15 +223,15 @@ ul:hover {
     
 }
 /*descripcion*/
-.descripcion
+.descripcion{
 background-color: aliceblue;
 display: flex;
 height: auto;
 justify-content:space-around;
 flex-wrap: wrap;
 padding-right: 100px;
+padding-left: 100px;}
 
-padding-left: 100px;
 /*ANIMACIONES*/
 @keyframes animacion_de_entrada {
     from {
