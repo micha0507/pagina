@@ -147,6 +147,7 @@ ul:hover {
     width: 100%;
     filter: brightness(49%);
 }
+/*TITULO BANNER*/
 .titulo
 {
     position:absolute;
@@ -159,16 +160,62 @@ ul:hover {
     justify-content: center;
     align-content: center;
     height: 400px;
-    padding-left: 10%;
+    padding-left: 15%;
     
 }
-
+/*DIV BLANCO PARA BANNER*/
 .blanco
 {
     width: 50%;
     background-color: coral;
     height: 100%;
 }
+/*cuadros*/
+.caja-cuadro
+{
+    background-color: aliceblue;
+    display: flex;
+    height: auto;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    
+    padding-left: 100px;
+    
+}
+.cuadro
+{   
+    background-color: rgba(101, 0, 126, 0.897);
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    
+}
+.icono-cuadro
+{
+    margin-right: 10px;
+    width: 40px;
+    filter: invert(1);
+    
+}
+/*descripcion*/
+.descripcion
+background-color: aliceblue;
+display: flex;
+height: auto;
+justify-content:space-around;
+flex-wrap: wrap;
+padding-right: 100px;
+
+padding-left: 100px;
+/*ANIMACIONES*/
 @keyframes animacion_de_entrada {
     from {
         margin-left: -50px;
